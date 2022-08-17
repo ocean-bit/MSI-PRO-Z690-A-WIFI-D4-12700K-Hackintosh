@@ -1,17 +1,27 @@
 ## Hardware
 CPU: 12700k
+
 Motherboard: MSI PRO Z690-a WIFI D4
+
 GPU: Sapphire RX580 2304SP
 
 ## BIOS
 Initiate Graphic Adapter PEG
+
 IGD Multi-Monitor Disabled
+
 Legacy USB Support Disabled
+
 MSI Fast Boot Disabled
+
 Fast Boot Disabled
+
 VT-D Disabled
+
 CFG LOCK Disabled
+
 Secure Boot Disabled
+
 Secure Device Support Disabled
 
 ## OS Version
