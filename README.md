@@ -4,10 +4,15 @@ Motherboard: MSI PRO Z690-a WIFI D4
 GPU: Sapphire RX580 2304SP
 
 ## BIOS
-
-VT-D close
-
-CFG LOCK close
+Initiate Graphic Adapter PEG
+IGD Multi-Monitor Disabled
+Legacy USB Support Disabled
+MSI Fast Boot Disabled
+Fast Boot Disabled
+VT-D Disabled
+CFG LOCK Disabled
+Secure Boot Disabled
+Secure Device Support Disabled
 
 ## OS Version
 Monterey 12.5
@@ -20,7 +25,7 @@ Thanks for @zxystd, the bluetooth and wifi is worked.
 
 Up till the present moment (2022-07-23)，the author has not released the fixed kext **IntelBluetoothFirmware** and the **IntelBTPatcher**, so, we can only build from code source or fetch from [here](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/369).
 
-
+If stuck on [EB|#LOG:EXITBS:START] on BIOS version E7D25IMS.170 or latter，maybe you need to trun config.plist **Booter->Quirks->SetupVirtualMap** to true, on the version E7D25IMS.140 you can keep false.
 
 ## Image
 
